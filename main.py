@@ -21,6 +21,8 @@ def osszeg(kartyak: [int]):
 
 def teszt_esetek():
     jatekos_vesztett()
+    jatekos_vesztett2()
+    jatekos_vesztett3()
 
 def jatekos_vesztett():
     jatekos = [10, 9, 3]
@@ -37,7 +39,7 @@ def jatekos_vesztett():
 teszt_esetek()
 
 
-def jatekos_vesztett2():
+def jatekos_vesztett_kevesebb():
     jatekos = [10, 9]
     gep = [10, 10, 1]
     vart_eredmeny = "jatekos veszett"
@@ -49,7 +51,7 @@ def jatekos_vesztett2():
 
 
 
-def jatekos_vesztett3():
+def jatekos_vesztett_tobb():
     jatekos = [10, 10, 1]
     gep = [10, 10]
     vart_eredmeny = "jatekos veszett"
