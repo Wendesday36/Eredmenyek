@@ -21,7 +21,7 @@ def osszeg(kartyak: [int]):
 
 def teszt_esetek():
     jatekos_vesztett()
-    teszt_esetek()
+
 def jatekos_vesztett():
     jatekos = [10, 9, 3]
     gep = [10, 9]
@@ -31,3 +31,30 @@ def jatekos_vesztett():
         print("a jatekos_vesztett teszt sikeres")
     else:
         print("a jatekos_vesztett teszt megbukott")
+
+
+
+teszt_esetek()
+
+
+def jatekos_vesztett2():
+    jatekos = [10, 9]
+    gep = [10, 10, 1]
+    vart_eredmeny = "jatekos veszett"
+    kapott_eredmeny = eredmeny(jatekos, gep)
+    if kapott_eredmeny == vart_eredmeny:
+        print("a jatekos_vesztett2 teszt sikeres")
+    else:
+        print("a jatekos_vesztett2 teszt megbukott")
+
+
+
+def jatekos_vesztett3():
+    jatekos = [10, 10, 1]
+    gep = [10, 10]
+    vart_eredmeny = "jatekos veszett"
+    kapott_eredmeny = eredmeny(jatekos, gep)
+    if kapott_eredmeny == vart_eredmeny:
+        print("a jatekos_vesztett3 teszt sikeres")
+    else:
+        print("a jatekos_vesztett3 teszt megbukott")
