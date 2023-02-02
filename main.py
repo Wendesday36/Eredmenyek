@@ -101,6 +101,16 @@ def gep_vesztett_tobblap():
         print("a gep_vesztett_tobbllap teszt megbukott")
 
 
+def dontetlen():
+    jatekos = [10, 6]
+    gep = [10,6]
+    vart_eredmeny = "döntetlen"
+    kapott_eredmeny = eredmeny(jatekos, gep)
+    if kapott_eredmeny == vart_eredmeny:
+        print("a dontetlen teszt sikeres")
+    else:
+        print("a dontetlen teszt megbukott")
+
 
 def dontetlen_jatekos():
     jatekos =[10, 10]
@@ -108,9 +118,9 @@ def dontetlen_jatekos():
     vart_eredmeny = "döntetlen,a játékos nyert"
     kapott_eredmeny = eredmeny(jatekos, gep)
     if kapott_eredmeny == vart_eredmeny:
-        print("a dontetlen teszt sikeres")
+        print("a dontetlen_jatekos teszt sikeres")
     else:
-        print("a dontetlen teszt megbukott")
+        print("a dontetlen_jatekos teszt megbukott")
 
 
 def dontetlen_gep():
@@ -119,8 +129,8 @@ def dontetlen_gep():
     vart_eredmeny = "döntetlen,a gép nyert"
     kapott_eredmeny = eredmeny(jatekos, gep)
     if kapott_eredmeny == vart_eredmeny:
-        print("a dontetlen teszt sikeres")
+        print("a dontetlen_gep teszt sikeres")
     else:
-        print("a dontetlen teszt megbukott")
+        print("a dontetlen_gep teszt megbukott")
 
 teszt_esetek()
