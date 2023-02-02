@@ -28,6 +28,6 @@ def jatekos_vesztett():
     vart_eredmeny = "jatekos veszett"
     kapott_eredmeny = eredmeny(jatekos, gep)
     if kapott_eredmeny == vart_eredmeny:
-        print("teszt sikeres")
+        print("a jatekos_vesztett teszt sikeres")
     else:
-        print("megbukott")
+        print("a jatekos_vesztett teszt megbukott")
